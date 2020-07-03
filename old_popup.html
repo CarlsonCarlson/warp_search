@@ -1,0 +1,142 @@
+<!--Deprecated just for reference-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Concept Parser</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            font-family: 'Roboto Condensed';
+            font-size: 14px;
+            margin: 0;
+            min-height: 140px;
+            padding: 0;
+            width: 384px;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: black;
+        }
+
+        a:link,
+        a:visited {
+            color: blueviolet;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img {
+            width: 30px;
+        }
+
+        .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada
+        }
+
+        .modal-content {
+            padding: 0 22px;
+        }
+
+        .modal-icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+        
+        .logo {
+            padding: 16px;
+        }
+
+        .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+
+        .version {
+            color: #444;
+            font-size: 18px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+
+        .flex {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover {
+            opacity: 0.4;
+        }
+
+        .flex .fa {
+            font-size:  40px;
+            color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1>
+            <img src="images/ConceptParserLogo.png" alt="Concept Parser" class="logo-icon"> Concept Parser <span
+                class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Easily Parse a Concept</p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://youtu.be/hKBZjH7Ot2g?t=447" target="_blank">
+                    <i class="fa fa-youtube"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.google.com/search?rlz=1C1ASUM_enUS725US725&ei=u2snXdTSFciC9PwPnbKYoAk&q=parse&oq=parse&gs_l=psy-ab.3..0i67l7j0l3.8120.8727..9253...0.0..0.83.384.5......0....1..gws-wiz.......0i71j0i131.k0n-1xwNDlo"
+                    target="_blank">
+                    <i class="fa fa-globe"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://web.stanford.edu/~jurafsky/slp3/13.pdf" target="_blank">
+                    <i class="fa fa-book"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.google.com/search?q=how+to+learn+faster&rlz=1C1ASUM_enUS725US725&oq=how+to+learn+faster&aqs=chrome..69i57.3663j0j1&sourceid=chrome&ie=UTF-8"
+                    target="_blank">
+                    <i class="fa fa-eye"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.google.com/search?q=learning&rlz=1C1ASUM_enUS725US725&oq=learning&aqs=chrome..69i57j69i60l2j69i65j69i61.1291j0j1&sourceid=chrome&ie=UTF-8"
+                    target="_blank">
+                    <i class="fa fa-leanpub"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
